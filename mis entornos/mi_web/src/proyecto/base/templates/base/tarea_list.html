@@ -2,11 +2,13 @@
 <table>
     <tr>
         <th>Elementos</th>
+        <th></th>
     </tr>
 
-    {%for tarea in tareas%}
+    {% for tarea in tareas %}
     <tr>
         <td>{{Tarea.titulo}}</td>
+        <td><a href="{% url 'tarea' tarea.id %}">Ver</a></td>
     </tr>
 
     {%empty%}
