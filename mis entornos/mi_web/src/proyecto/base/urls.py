@@ -1,4 +1,4 @@
 from django.urls import path
-from base import views
+from .views import lista_pendientes
 
-urlpatterns = [path("", views.lista_pendientes, name="pendientes")]
+urlpatterns = [path("", lista_pendientes.as_view(), name="pendientes")]
