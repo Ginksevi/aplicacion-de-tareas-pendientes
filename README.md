@@ -6,11 +6,11 @@ para habilitar un servidor local como prueba para el ejercicio de django es nece
 
 para crear el entorno virtual usamos el siguiente comando directamente desde el CMD ubicados precisamente en la carpeta o folder en donde se quiera o requiera realizar el entorno virtual
 
-##	virtualenv "nombre del entorno"
+###	virtualenv "nombre del entorno"
 
 luego debemos proceder a activar el entorno virtual de la siguiente manera
 
-##	."nombre del entorno"\Scripts\activate
+###	."nombre del entorno"\Scripts\activate
 
 para desactivar el entorno basta con reemplazar "activate" por "deactivate"
 
